@@ -6,12 +6,21 @@ VERSION=0.0.1
 function showHelp
 {
 
-	about="dog v$VERSION\n
+	about="dog v$VERSION
+Whiptail version: $(whiptail --version)
 Written by: Tristan B. Kildaire (Deavmi) - (deavmi@disroot.org)
+License: GNU GPL v3
+Crowbar Developments
 
-"
 
-	whiptail --msgbox "$about" 20 100 --fullbuttons --ok-button "Can doggy have a treat?"
+Usage:
+
+
+bash dog.sh --help              Show this page
+bash dog.sh --version           Show current version
+bash dog.sh [filename]          Graphically viw a file using whiptail"
+
+	whiptail --msgbox "$about" 21 100 --fullbuttons --ok-button "Awesome"
 
 }
 
