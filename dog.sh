@@ -11,7 +11,7 @@ Written by: Tristan B. Kildaire (Deavmi) - (deavmi@disroot.org)
 
 "
 
-	whiptail --msgbox "$about" 20 100 --fullbuttons
+	whiptail --msgbox "$about" 20 100 --fullbuttons --ok-button "Can doggy have a treat?"
 
 }
 
