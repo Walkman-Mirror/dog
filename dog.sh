@@ -38,7 +38,7 @@ function showFile
 
 	content=$(cat "$filename")
 
-	whiptail --msgbox "$content" 20 100 --title "$filename"
+	whiptail --msgbox "$content" 20 100 --title "$filename" --scrolltext
 
 }
 
