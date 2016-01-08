@@ -1,4 +1,4 @@
 dog
 ===
 
-Graphical cat.
+Graphical cat for your terminal.
