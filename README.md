@@ -1,2 +1,4 @@
-# dog
+dog
+===
+
 Graphical cat.
